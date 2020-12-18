@@ -99,22 +99,47 @@ header {
   background-color: blue;
 }
 
+header #navigator::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 header #navigator {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 25px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #58402C;
   background-color: yellow;
 }
 
-header #navigator a {
-  font-size: 22px;
-  text-decoration: none;
+header #navigator #logo-head {
   color: #58402C;
+  text-decoration: none;
+  font-size: 22px;
   display: flex;
+  float: left;
 }
 
-header #navigator a span {
+header #navigator #logo-head span {
   margin-left: 5px;
+}
+
+header #navigator .nav-dx {
+  float: right;
+}
+
+header #navigator .nav-dx a {
+  color: #58402C;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 0 0 16px;
+}
+
+header #navigator .nav-dx a #g-signup {
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 5px;
 }
 
