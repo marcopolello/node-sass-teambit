@@ -1,22 +1,24 @@
 header{
   height: 75px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   position: relative;
-  padding: 10px;
+  background-color: white;
   #navigator::after{
     content: "";
     clear: both;
     display: table;
   }
   #navigator{
+    background-color: white;
     position: fixed;
     left: 0;
-    top: 65px;
     right: 0;
     z-index: 42423423;
-    @include size;
     padding: 20px 0px;
     border-bottom: 1px solid $brown;
+    .size-nav{
+      @include size;
+    }
     #logo-head{
       @include textHeader;
       font-size: 22px;

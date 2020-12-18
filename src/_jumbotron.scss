@@ -1,9 +1,9 @@
-#understand::after{
+#jumbotron::after{
   display: table;
   content: "";
   clear: both;
 }
-#understand{
+#jumbotron{
   @include size;
   a{
     text-decoration: none;

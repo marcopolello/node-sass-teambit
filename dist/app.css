@@ -93,9 +93,9 @@
 
 header {
   height: 75px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   position: relative;
-  padding: 10px;
+  background-color: white;
 }
 
 header #navigator::after {
@@ -105,16 +105,19 @@ header #navigator::after {
 }
 
 header #navigator {
+  background-color: white;
   position: fixed;
   left: 0;
-  top: 65px;
   right: 0;
   z-index: 42423423;
+  padding: 20px 0px;
+  border-bottom: 1px solid #58402C;
+}
+
+header #navigator .size-nav {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 0px;
-  border-bottom: 1px solid #58402C;
 }
 
 header #navigator #logo-head {
@@ -146,49 +149,49 @@ header #navigator .nav-dx a #g-signup {
   padding: 5px;
 }
 
-#understand::after {
+#jumbotron::after {
   display: table;
   content: "";
   clear: both;
 }
 
-#understand {
+#jumbotron {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#understand a {
+#jumbotron a {
   text-decoration: none;
 }
 
-#understand div {
+#jumbotron div {
   float: left;
   width: 50%;
 }
 
-#understand div h1 {
+#jumbotron div h1 {
   font-size: 50px;
   color: #58402C;
 }
 
-#understand div p {
+#jumbotron div p {
   color: #58402C;
   font-size: 22px;
   margin: 40px 0px;
 }
 
-#understand div span {
+#jumbotron div span {
   margin-right: 10px;
 }
 
-#understand div .button {
+#jumbotron div .button {
   border: 1px solid blue;
   border-radius: 6px;
   padding: 5px;
 }
 
-#understand div img {
+#jumbotron div img {
   max-width: 100%;
   height: auto;
 }
