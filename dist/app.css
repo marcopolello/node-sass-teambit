@@ -23,11 +23,6 @@
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0;
-  width: auto;
-  height: auto;
-  max-width: none;
-  max-height: none;
-  min-width: 0 !important;
   min-height: 65px;
   outline: none;
   float: none;
@@ -71,6 +66,24 @@
   background-color: #666 !important;
   padding: 0 5px 1px 3px !important;
   border-radius: 3px 3px 0 0 !important;
+}
+
+#nav-body {
+  border: none;
+  border-collapse: collapse;
+  margin: 0 120px;
+  padding: 0;
+  width: auto;
+  font-size: inherit;
+}
+
+#nav-body input {
+  width: calc(80% - 180px);
+  margin-top: 5px;
+}
+
+#nav-body button {
+  width: 45px;
 }
 
 .asd {
