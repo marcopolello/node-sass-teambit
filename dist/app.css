@@ -63,9 +63,9 @@
   right: 1px;
   bottom: -1px;
   color: #ffffff;
-  background-color: #666 !important;
-  padding: 0 5px 1px 3px !important;
-  border-radius: 3px 3px 0 0 !important;
+  background-color: #666;
+  padding: 0 5px 1px 3px;
+  border-radius: 3px 3px 0 0;
 }
 
 #nav-body {
