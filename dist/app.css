@@ -92,6 +92,29 @@
 }
 
 header {
-  background-color: aqua;
+  height: 75px;
+  margin-bottom: 40px;
+  position: relative;
+  padding: 10px;
+  background-color: blue;
+}
+
+header #navigator {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 25px;
+  background-color: yellow;
+}
+
+header #navigator a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #58402C;
+  display: flex;
+}
+
+header #navigator a span {
+  margin-left: 5px;
 }
 
