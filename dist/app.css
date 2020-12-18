@@ -86,10 +86,9 @@
   width: 45px;
 }
 
-.asd {
-  height: 1000px;
-  background-color: green;
-  width: auto;
+#nav-body #myCanvas {
+  width: calc(80% - 180px);
+  margin-top: 5px;
 }
 
 header {
