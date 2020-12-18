@@ -1,12 +1,25 @@
 // regole generali
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-// mixins
+// MIXINS
+//misure generali
+@mixin size{
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+// header
 @mixin textHeader {
   color: $brown;
   text-decoration: none;
+};
+// bottoni creati x sign up
+@mixin buttons {
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 5px;
 };

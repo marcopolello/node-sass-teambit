@@ -96,7 +96,6 @@ header {
   margin-bottom: 40px;
   position: relative;
   padding: 10px;
-  background-color: blue;
 }
 
 header #navigator::after {
@@ -109,9 +108,8 @@ header #navigator {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 0px;
+  padding: 20px 0px;
   border-bottom: 1px solid #58402C;
-  background-color: yellow;
 }
 
 header #navigator #logo-head {
@@ -141,5 +139,46 @@ header #navigator .nav-dx a #g-signup {
   border: 1px solid blue;
   border-radius: 6px;
   padding: 5px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main #understand {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main #understand a {
+  text-decoration: none;
+}
+
+main #understand div {
+  float: left;
+  width: 50%;
+}
+
+main #understand div h1 {
+  font-size: 50px;
+  color: #58402C;
+}
+
+main #understand div p {
+  color: #58402C;
+  font-size: 22px;
+  margin: 20px 0px;
+}
+
+main #understand div .button {
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+main #understand div img {
+  max-width: 100%;
+  height: auto;
 }
 

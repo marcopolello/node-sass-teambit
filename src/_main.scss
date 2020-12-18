@@ -1,0 +1,29 @@
+main{
+  padding-top: 50px;
+  #understand{
+    @include size;
+    a{
+      text-decoration: none;
+    }
+    div{
+      float: left;
+      width: 50%;
+      h1{
+        font-size: 50px;
+        color: $brown;
+      }
+      p{
+        color: $brown;
+        font-size: 22px;
+        margin: 20px 0px;
+      }
+      .button{
+        @include buttons;
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
