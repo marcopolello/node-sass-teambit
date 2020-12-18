@@ -105,6 +105,11 @@ header #navigator::after {
 }
 
 header #navigator {
+  position: fixed;
+  left: 0;
+  top: 65px;
+  right: 0;
+  z-index: 42423423;
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
@@ -141,44 +146,60 @@ header #navigator .nav-dx a #g-signup {
   padding: 5px;
 }
 
-main {
-  padding-top: 50px;
+#understand::after {
+  display: table;
+  content: "";
+  clear: both;
 }
 
-main #understand {
+#understand {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
 }
 
-main #understand a {
+#understand a {
   text-decoration: none;
 }
 
-main #understand div {
+#understand div {
   float: left;
   width: 50%;
 }
 
-main #understand div h1 {
+#understand div h1 {
   font-size: 50px;
   color: #58402C;
 }
 
-main #understand div p {
+#understand div p {
   color: #58402C;
   font-size: 22px;
-  margin: 20px 0px;
+  margin: 40px 0px;
 }
 
-main #understand div .button {
+#understand div span {
+  margin-right: 10px;
+}
+
+#understand div .button {
   border: 1px solid blue;
   border-radius: 6px;
   padding: 5px;
 }
 
-main #understand div img {
+#understand div img {
   max-width: 100%;
   height: auto;
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+main #pink {
+  background-color: #FFE7D2;
+  min-height: 200px;
 }
 

@@ -9,6 +9,11 @@ header{
     display: table;
   }
   #navigator{
+    position: fixed;
+    left: 0;
+    top: 65px;
+    right: 0;
+    z-index: 42423423;
     @include size;
     padding: 20px 0px;
     border-bottom: 1px solid $brown;
