@@ -1,8 +1,36 @@
 main{
-  padding-top: 50px;
-  padding-bottom: 70px;
-  #pink{
-    background-color: $pink;
-    min-height: 200px;
+  background-color: $pink;
+  #container{
+    @include size_2;
+    padding: 50px;
+    h2{
+      text-align: center;
+      font-size: $h2;
+      color: $brown;
+    }
+    .main_1{
+      display: flex;
+      div{
+        width: calc(100%/3);
+        padding: 40px;
+        text-align: center;
+        img{
+          max-width: 100%;
+          max-height: 130px;
+        }
+        p{
+          margin-top: 20px;
+          color: $brown;
+          font-size: $p;
+        }
+      }
+    }
+    .main_2{
+      text-align: center;
+      img{
+        width: calc(100%/3);
+
+      }
+    }
   }
 }

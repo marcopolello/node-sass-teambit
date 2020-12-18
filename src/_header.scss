@@ -16,6 +16,7 @@ header{
     z-index: 42423423;
     padding: 20px 0px;
     border-bottom: 1px solid $brown;
+    // centrato tutto il body dell'header
     .size-nav{
       @include size;
     }
