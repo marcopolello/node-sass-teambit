@@ -1,10 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#nav-base {
+// base navbar
+#nav-base{
   display: block;
   direction: ltr;
   min-height: 65px;
@@ -13,12 +8,14 @@
   border: none;
   background-color: #00000000;
 }
-
-#nav-fix {
+//navbar fixed
+#nav-fix{
+  // position
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
+  // prop inside
   font-family: Lucida Grande, Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.2;
@@ -37,49 +34,44 @@
   text-indent: 0;
   z-index: 42423423;
 }
-
-#nav-inside {
+// elementi interni alla navbar
+#nav-inside{
   height: 65px;
   margin: 0 6px;
   border: 5px solid #000;
   border-top: none;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255,255,255,0.9);
+  -moz-box-shadow: 1px 1px 4px #333;
+  -webkit-box-shadow: 1px 1px 4px #333;
   box-shadow: 1px 1px 4px #333;
   border-radius: 0 0 8px 8px;
 }
 
-#logo {
+// logo navbar
+#logo{
   float: left;
   width: 110px;
   padding: 12px 10px 0 10px;
   vertical-align: middle;
 }
-
-#social {
+// contatti social float dx
+#social{
   float: right;
+  i{
+    font-size: 18px;
+    margin: 3px 3px 2px;
+  }
+  a{
+    right: 1px;
+    bottom: -1px;
+    color: #ffffff;
+    background-color: #666 !important;
+    padding: 0 5px 1px 3px !important;
+    border-radius: 3px 3px 0 0 !important;
+  }
 }
-
-#social i {
-  font-size: 18px;
-  margin: 3px 3px 2px;
-}
-
-#social a {
-  right: 1px;
-  bottom: -1px;
-  color: #ffffff;
-  background-color: #666 !important;
-  padding: 0 5px 1px 3px !important;
-  border-radius: 3px 3px 0 0 !important;
-}
-
-.asd {
+.asd{
   height: 1000px;
   background-color: green;
   width: auto;
 }
-
-header {
-  background-color: aqua;
-}
-
