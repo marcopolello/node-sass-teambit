@@ -20,12 +20,12 @@
 
 // header
 @mixin textHeader {
-  color: $brown;
+  color: $purple;
   text-decoration: none;
 };
 // bottoni creati x sign up
 @mixin buttons {
-  border: 1px solid blue;
+  border: 1px solid $blue;
   border-radius: 6px;
   padding: 5px;
 };

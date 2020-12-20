@@ -1,6 +1,6 @@
 #container_3{
   padding: 100px 0;
-  background-color: $pink;
+  background-color: $turquoiseb;
   text-align: center;
   .bottoni_main3{
     a{
@@ -10,7 +10,7 @@
     .button{
       margin: 0 10px;
       color: white;
-      background-color: blue;
+      background-color: $blue;
       @include buttons;
     }
   }
@@ -18,7 +18,7 @@
     @include size_2;
     h1{
       font-size: $h1;
-      color: $brown;
+      color: $purple;
     }
     .square-white{
       background-color: white;
@@ -30,7 +30,7 @@
       text-align: left;
       padding: 10px 20px;
       font-size: $p;
-      color: $brown;
+      color: $black;
       p{
         margin-bottom: 15px;
       }

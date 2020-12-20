@@ -121,7 +121,7 @@ header #navigator .size-nav {
 }
 
 header #navigator #logo-head {
-  color: #58402C;
+  color: #7f14d4;
   text-decoration: none;
   font-size: 22px;
   display: flex;
@@ -137,14 +137,14 @@ header #navigator .nav-dx {
 }
 
 header #navigator .nav-dx a {
-  color: #58402C;
+  color: #7f14d4;
   text-decoration: none;
   font-size: 18px;
   margin: 0 0 0 16px;
 }
 
 header #navigator .nav-dx a #g-signup {
-  border: 1px solid blue;
+  border: 1px solid #0e14ee;
   border-radius: 6px;
   padding: 5px;
 }
@@ -173,11 +173,11 @@ header #navigator .nav-dx a #g-signup {
 
 #jumbotron div h1 {
   font-size: 50px;
-  color: #58402C;
+  color: #7f14d4;
 }
 
 #jumbotron div p {
-  color: #58402C;
+  color: #7f14d4;
   font-size: 22px;
   margin: 40px 0px;
 }
@@ -187,7 +187,7 @@ header #navigator .nav-dx a #g-signup {
 }
 
 #jumbotron div .button {
-  border: 1px solid blue;
+  border: 1px solid #0e14ee;
   border-radius: 6px;
   padding: 5px;
 }
@@ -198,7 +198,7 @@ header #navigator .nav-dx a #g-signup {
 }
 
 main {
-  background-color: #FFE7D2;
+  background-color: #8499d8;
 }
 
 main #container {
@@ -255,7 +255,7 @@ main #container .main_2 img {
 
 #container_2 div {
   padding-bottom: 100px;
-  color: #58402C;
+  color: #7f14d4;
   width: 50%;
   float: left;
 }
@@ -309,7 +309,7 @@ main #container .main_2 img {
 
 #container_3 {
   padding: 100px 0;
-  background-color: #FFE7D2;
+  background-color: #8499d8;
   text-align: center;
 }
 
@@ -324,8 +324,8 @@ main #container .main_2 img {
 #container_3 .bottoni_main3 .button {
   margin: 0 10px;
   color: white;
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: #0e14ee;
+  border: 1px solid #0e14ee;
   border-radius: 6px;
   padding: 5px;
 }
@@ -338,7 +338,7 @@ main #container .main_2 img {
 
 #container_3 .message h1 {
   font-size: 45px;
-  color: #58402C;
+  color: #7f14d4;
 }
 
 #container_3 .message .square-white {
@@ -351,7 +351,7 @@ main #container .main_2 img {
   text-align: left;
   padding: 10px 20px;
   font-size: 18px;
-  color: #58402C;
+  color: #040f0f;
 }
 
 #container_3 .message .square-white p {
@@ -394,7 +394,7 @@ footer .logo-foot span {
   padding-top: 40px;
   margin-left: 10px;
   width: 70%;
-  color: #58402C;
+  color: #7f14d4;
   font-size: 18px;
 }
 
@@ -405,7 +405,7 @@ footer .list-foot {
 }
 
 footer .list-foot ul {
-  color: #58402C;
+  color: #7f14d4;
   width: calc(100% / 5);
 }
 
