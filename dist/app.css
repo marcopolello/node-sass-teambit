@@ -243,3 +243,135 @@ main #container .main_2 img {
   width: calc(100%/3);
 }
 
+#container_2 {
+  padding-top: 100px;
+}
+
+#container_2:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+#container_2 div {
+  padding-bottom: 100px;
+  color: #58402C;
+  width: 50%;
+  float: left;
+}
+
+#container_2 div h2 {
+  font-size: 26px;
+}
+
+#container_2 div p {
+  font-size: 18px;
+}
+
+#container_2 div a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#container_2 div img {
+  max-width: 100%;
+}
+
+#container_2 .text_dx {
+  padding-right: 300px;
+  padding-left: 20px;
+}
+
+#container_2 .text_dx p {
+  margin: 30px 0;
+}
+
+#container_2 .text_dx img {
+  padding: 20px 0 0 20px;
+  height: 260px;
+  width: auto;
+}
+
+#container_2 .text_sx {
+  padding-left: 300px;
+  padding-right: 20px;
+}
+
+#container_2 .text_sx p {
+  margin: 30px 0;
+}
+
+#container_2 .text_sx img {
+  padding: 20px 0px 0 30px;
+  height: 230px;
+  width: auto;
+}
+
+#container_3 {
+  padding-top: 100px;
+  background-color: #FFE7D2;
+  text-align: center;
+}
+
+#container_3 .bottoni_main3 {
+  padding: 20px 0;
+}
+
+#container_3 .bottoni_main3 a {
+  text-decoration: none;
+}
+
+#container_3 .bottoni_main3 .button {
+  margin: 0 10px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+#container_3 .message {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container_3 .message h1 {
+  font-size: 45px;
+  color: #58402C;
+}
+
+#container_3 .message .square-white {
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #58402C;
+}
+
+#container_3 .message .square-white p {
+  margin-bottom: 15px;
+}
+
+#container_3 .message .square-white .founders {
+  display: flex;
+}
+
+#container_3 .message .square-white .founders img {
+  width: 40px;
+  height: auto;
+}
+
+#container_3 .message .square-white .founders p {
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+  color: blue;
+}
+

@@ -1,0 +1,53 @@
+#container_3{
+  padding-top: 100px;
+  background-color: $pink;
+  text-align: center;
+  .bottoni_main3{
+    a{
+      text-decoration: none;
+    }
+    padding: 20px 0;
+    .button{
+      margin: 0 10px;
+      color: white;
+      background-color: blue;
+      @include buttons;
+    }
+  }
+  .message{
+    @include size_2;
+    h1{
+      font-size: $h1;
+      color: $brown;
+    }
+    .square-white{
+      background-color: white;
+      margin: 0 auto;
+      width: 70%;
+      border: 1px solid black;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-align: left;
+      padding: 10px 20px;
+      font-size: $p;
+      color: $brown;
+      p{
+        margin-bottom: 15px;
+      }
+      .founders{
+        display: flex;
+        img{
+          width: 40px;
+          height: auto;
+        }
+        p{
+          margin: 0;
+          margin-left: 5px;
+          margin-top: 2px;
+          font-size: 12px;
+          color: blue;
+        }
+      }
+    }
+  }
+}
