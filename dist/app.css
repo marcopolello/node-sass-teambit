@@ -308,7 +308,7 @@ main #container .main_2 img {
 }
 
 #container_3 {
-  padding-top: 100px;
+  padding: 100px 0;
   background-color: #FFE7D2;
   text-align: center;
 }
@@ -373,5 +373,48 @@ main #container .main_2 img {
   margin-top: 2px;
   font-size: 12px;
   color: blue;
+}
+
+footer {
+  padding: 100px 50px;
+  display: flex;
+}
+
+footer .logo-foot {
+  width: 30%;
+  display: flex;
+}
+
+footer .logo-foot img {
+  width: 50px;
+  height: auto;
+}
+
+footer .logo-foot span {
+  padding-top: 40px;
+  margin-left: 10px;
+  width: 70%;
+  color: #58402C;
+  font-size: 18px;
+}
+
+footer .list-foot {
+  width: 70%;
+  display: flex;
+  padding-top: 40px;
+}
+
+footer .list-foot ul {
+  color: #58402C;
+  width: calc(100% / 5);
+}
+
+footer .list-foot ul li {
+  list-style-type: none;
+}
+
+footer .list-foot ul li:first-child {
+  font-size: 18px;
+  font-weight: bold;
 }
 
